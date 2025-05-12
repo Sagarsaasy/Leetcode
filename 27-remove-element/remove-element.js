@@ -10,7 +10,6 @@ var removeElement = function(nums, val) {
         if(nums[i] != val) {
             nums[j] = nums[i];
             j++;
-            // counter = filteredArray.length
         }
     }
     return j;
